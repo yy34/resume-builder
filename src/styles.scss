@@ -1,5 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; }
+
+
+@import '@angular/material/theming';
+
+$custom-typography: mat-typography-config(
+  $font-family: 'Ovo, sans-serif',
+
+);
+
+@include angular-material-typography($custom-typography);

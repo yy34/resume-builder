@@ -1,1 +1,1 @@
-@tailwind base;@tailwind components;@tailwind utilities;html,body{height:100%}body{margin:0;font-family:Roboto,"Helvetica Neue",sans-serif}
+@import"https://fonts.googleapis.com/css2?family=Ovo&display=swap";@tailwind base;@tailwind components;@tailwind utilities;html,body{height:100%}body{margin:0;font-family:"Ovo",sans-serif}
